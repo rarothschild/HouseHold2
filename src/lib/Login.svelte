@@ -31,6 +31,7 @@
 {:else}
 <form on:submit|preventDefault>
     <input
+        class="w-52 broder-2"
         placeholder="Username"
         type="text"
         bind:value={username}
